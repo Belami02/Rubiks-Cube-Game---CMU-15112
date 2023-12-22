@@ -1,0 +1,49 @@
+
+Updated Project Proposal
+----------------
+
+Project Description:
+--------------------
+Name: Rubiks Cube Game
+
+Description:
+------------
+This project aims to develop a 2D version of the classic 3D puzzle game, commonly known as the Rubik's Cube or Magic Cube. Unlike the traditional 3D model, this version will display the cube in a 2D plane, consisting of six colored sections that can be rotated similarly to the 3D cube. Each section contains nine smaller squares, arranged in three rows and columns. The objective is for the player to solve the puzzle by making each section uniformly colored, thereby enhancing their problem-solving skills. I also implemented an isometric view of the cube which somehow looks like a 3D version.
+
+Competitive Analysis:
+---------------------
+Several online versions of the Rubik's Cube exist, ranging from simple 2D representations to complex 3D simulations. However, most of these games focus on emulating the 3D aspect of the original cube and also using complex libraries that makes creating their games easier. My Rubik's Cube Game will differ by presenting a flattened, planar representation, and more accessible version of the puzzle, isometric representation, appealing to those who may find the 3D version easier and also challenging to those who might memorize the moves for the actual game. This game of mine is intended to also test the conceptual algorithm one can use without relying on mere memorized algorithms outside. This unique approach simplifies the user interface while maintaining the original game's complexity and problem-solving aspects. While my solver is inspired by a mathematical concept commonly known as "Group Theory", it doesn't mean that someone cannot use the other algorithms to solve the cube. That is, my Rubik's cube game is open to any algorithm someone can use as it follows all rules of the actual rubik's cube game.
+
+Structural Plan:
+----------------
+The project will be divided into several components:
+1. Main Interface: Handling user input and displaying the game state.
+2. Game Logic: Managing the cube's state and the rules for rotating sections.
+3. Graphics Module: Rendering the 2D representation of the cube (both planar and isometric).
+4. Scoring System: Tracking player performance based on time.
+
+
+Algorithmic Plan:
+-----------------
+The core algorithm will involve the rotation of the cube's sections. This will require a well-designed data structure to represent the cube's state, a set of linked lists. The rotation algorithm will need to update the state of the cube efficiently while ensuring that the integrity of the game is maintained as well. I am also looking to implement an auto solver that will help the player who is stuck at some point to see the moves they can perform and get it to the original state.
+
+Timeline Plan:
+--------------
+Tue 14-Nov: Developing the game logic and rotation algorithms.
+Tue 21-Nov: Designing the game interface and basic aesthetics  and implementing the graphics module and user interaction.
+Tue 28-Nov: Integrating the scoring system, then testing and debugging
+
+
+Version Control Plan:
+---------------------
+The project will initially utilize Microsoft OneDrive for automatic version control and backup. As changes are made, OneDrive will automatically update and store these versions, allowing for continuous backup and the ability to revert to previous versions if needed. Once the project reaches completion, the final version will be uploaded to GitHub, enabling public access and showcasing the project's development process.
+
+Module List:
+------------
+- CMU Graphics.
+- Standard(builtin) Python libraries for data handling and logic implementation.
+- Additional modules: CSV and PIL
+
+
+
+
