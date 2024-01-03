@@ -1,2 +1,4 @@
 *.json filter=lfs diff=lfs merge=lfs -text
 micromamba/pkgs/cache/*.json filter=lfs diff=lfs merge=lfs -text
+micromamba/pkgs/cache/09cdf8bf.json filter=lfs diff=lfs merge=lfs -text
+micromamba/pkgs/cache/31ce02e0.json filter=lfs diff=lfs merge=lfs -text
