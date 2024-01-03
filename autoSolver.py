@@ -1,6 +1,5 @@
 from rubiksCube import *
 
-
 def __solve_cross(cube):
     color_to_norm = {'g': (2, -1), 'o': (0, -1), 'b': (2, 1), 'r': (0, 1)}
     res = ''
